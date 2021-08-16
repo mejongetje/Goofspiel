@@ -1,4 +1,4 @@
 # Goofspiel
 A command line cardgame
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/mejongetje/Goofspiel/blob/main/play.png)
