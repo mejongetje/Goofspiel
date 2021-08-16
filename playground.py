@@ -1,6 +1,7 @@
 import os
 
 import archiealgo
+import aalgo_vs2
 import classes
 import headers
 import utils
@@ -48,7 +49,7 @@ while True:
                 except:
                     pass
             classes.p2.card = utils.bid_card(hu_inp, classes.p2)
-            classes.p1.card = archiealgo.archie_bid(prize_pile[0], classes.p1, game.stock)
+            classes.p1.card = aalgo_vs2.check_hand(prize_pile[0], classes.p1.hand, classes.p2.hand)
             classes.p1.hand.remove(classes.p1.card)
             
         
